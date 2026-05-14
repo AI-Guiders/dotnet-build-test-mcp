@@ -5,7 +5,7 @@ MCP-сервер с тулами **build_structured**, **run_tests** и **publis
 ## Стек
 
 - C#, .NET 10, win-x64, self-contained.
-- Библиотека [DotNetBuildTestParsers](../DotNetBuildTestParsers) — разбор вывода dotnet build и dotnet test.
+- Библиотека **[AIGuiders.DotNetBuildTestParsers](https://www.nuget.org/packages/AIGuiders.DotNetBuildTestParsers)** — разбор вывода dotnet build и dotnet test ([репозиторий](https://github.com/KarataevDmitry/dotnet-build-test-parsers)).
 
 ## Публикация
 

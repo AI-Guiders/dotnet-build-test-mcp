@@ -1,5 +1,4 @@
 <Solution>
-  <Project Path="DotNetBuildTestParsers\DotNetBuildTestParsers.csproj" />
   <Project Path="dotnet-build-test-mcp\DotnetBuildTestMcp.csproj" />
   <Project Path="McpVerifyTests\McpVerifyTests\McpVerifyTests.csproj" />
   <Project Path="McpVerifyTests\McpVerifyTests.Tests\McpVerifyTests.Tests.csproj" />

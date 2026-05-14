@@ -26,9 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AIGuiders.DotNetBuildTestParsers" Version="0.1.1" />
     <PackageReference Include="ModelContextProtocol" Version="0.8.0-preview.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DotNetBuildTestParsers\DotNetBuildTestParsers.csproj" />
   </ItemGroup>
 </Project>

@@ -2,7 +2,6 @@ bin/
 obj/
 out/
 publish/
-DotNetBuildTestParsers/artifacts/
 *.user
 .vs/
 *.suo
