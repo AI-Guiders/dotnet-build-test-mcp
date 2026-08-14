@@ -1,0 +1,15 @@
+# Correspondence map — Explore full-a substrate
+# auto-seed for dotnet-build-test-mcp-repo
+# ResolveAdrMap = longest prefix (not union). "*" = baseline.
+
+[workspace.adr]
+auto_include = "linked"
+max_related = 8
+root_dir = "."
+id_regex = '(?:^|/)(?<id>[A-Za-z0-9][^/]*?)(?:\.md)?'
+
+[workspace.adr.map]
+"*" = [
+  "README.md",
+]
+
