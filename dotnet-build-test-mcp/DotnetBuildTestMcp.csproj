@@ -10,7 +10,7 @@
     <RootNamespace>DotnetBuildTestMcp</RootNamespace>
     <AssemblyName>DotnetBuildTestMcp</AssemblyName>
     <!-- Локальная разработка: sibling dotnet-build-test-core. Иначе — NuGet AIGuiders.DotNetBuildTest.Core. -->
-    <DotNetBuildTestCoreProject Condition="'$(DotNetBuildTestCoreProject)'=='' and Exists('..\..\dotnet-build-test-core\DotNetBuildTest.Core.csproj')">..\..\dotnet-build-test-core\DotNetBuildTest.Core.csproj</DotNetBuildTestCoreProject>
+    <DotNetBuildTestCoreProject Condition="'$(DotNetBuildTestCoreProject)'=='' and Exists('$(GuidersCoreRoot)\src\DotNetBuildTest.Core\DotNetBuildTest.Core.csproj')">$(GuidersCoreRoot)\src\DotNetBuildTest.Core\DotNetBuildTest.Core.csproj</DotNetBuildTestCoreProject>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="tools\**\*.cs" />
